@@ -52,8 +52,9 @@ fn main() raises:
     var json = Python.import_module("json")
 
     var values_wrong: List[Int] = List[Int]()
+    var collection = range(10000, 200000)
 
-    for value in range(10000, 200000):
+    for value in collection:
         var nums = solve_sum_four_squares(value)
         if sum_squares(nums) != value:
             values_wrong.append(value)
