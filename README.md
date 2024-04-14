@@ -1,4 +1,4 @@
-Solves problem for [Sum of four squares](https://www.reddit.com/r/counting/comments/pkxl1o/sum_of_four_squares_12000/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)。
+Solves problem for [Sum of four squares](https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem)。
 
 # Usage
 
