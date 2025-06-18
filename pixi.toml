@@ -1,0 +1,11 @@
+[workspace]
+authors = ["HelloWorld-n <gajica.b@gmail.com>"]
+channels = ["https://conda.modular.com/max-nightly", "conda-forge"]
+name = "fictional-potato"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+modular = ">=25.5.0.dev2025061805,<26"
