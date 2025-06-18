@@ -41,7 +41,7 @@ fn solve_sum_four_squares(value: Int) -> List[Int]:
 
 fn main() raises:
     var values_wrong: List[Int] = List[Int]()
-    var collection = range(10000, 200000)
+    var collection = range(Int(input('min: ')), Int(input('max: ')))
 
     for value in collection:
         var nums = solve_sum_four_squares(value)

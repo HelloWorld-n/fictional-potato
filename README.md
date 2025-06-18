@@ -8,7 +8,5 @@ run `./prepare.sh`
 
 Install [mojo🔥](https://docs.modular.com/mojo/manual/get-started/) version `25.5.0` (use pixi)。  
 
-In file `NumRepresents.mojo` in function `main` change variable `collection` to range of integers you want result for。   
-
 Run program via `./run.sh`
 
