@@ -1,7 +1,7 @@
 #!/bin/mojo
 
 fn string_null_safe(value: String) raises -> String:
-    return value.split("\0")[0]
+    return String(value.split("\0")[0])
 
 fn sum_squares(nums: List[Int]) -> Int:
     var result = 0
